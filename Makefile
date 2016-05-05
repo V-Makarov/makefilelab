@@ -1,6 +1,6 @@
 main: main.o hello.o bye.o fakt.o input.o 
      	
-	gcc -o main main.o hello.o bye.o fakt.o input.o
+	gcc -Wall -o main main.o hello.o bye.o fakt.o input.o
 
 main.o: main.c
 	gcc -c main.c 
